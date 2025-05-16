@@ -116,18 +116,24 @@ body {
  #nav-sp>a:hover {
   color: #ffffff;
   text-decoration: underline;
+
 }
 #nav-sp>a:active {
   color: #ffffff;
 }
-#menu-sp>.menu {
+#nav-sp>.menu {
   text-decoration: none;
   display: block;
-  margin: 0 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   height: 44px;
   font-size: 16px;
   background-image: url('images/arrow.png');
   background-repeat: no-repeat;
   background-position: right center;
 }
+#nav-sp>.menu:hover {
+  text-emphasis: underline;
+}
+  
  }
